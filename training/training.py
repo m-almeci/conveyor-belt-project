@@ -28,8 +28,8 @@ image_path = tf.keras.utils.get_file(
       extract=True)
 image_path = os.path.join(os.path.dirname(image_path), 'flower_photos') """
 image_path = tf.keras.utils.get_file(
-      'componentes.zip',
-      'https://www.github.com/m-almeci/conveyor-belt-project/raw/main/training/componentes.zip',
+      'componentes.tgz',
+      'https://www.github.com/m-almeci/conveyor_belt/raw/main/training/componentes.tgz',
       extract=True)
 image_path = os.path.join(os.path.dirname(image_path), 'componentes')
 
